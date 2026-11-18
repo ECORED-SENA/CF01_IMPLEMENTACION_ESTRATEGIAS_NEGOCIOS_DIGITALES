@@ -342,15 +342,99 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alcance',
+      significado: 'cantidad de personas o usuarios únicos expuestos a un contenido o mensaje durante un periodo determinado (MSMK, 2024).',
     },
+    {
+      termino: 'Audiencia',
+      significado: 'conjunto de personas con quienes el negocio busca establecer una relación mediante sus canales y acciones digitales.',
+    },
+    {
+      termino: 'Beneficio',
+      significado: 'resultado útil que una oferta aporta a la persona al atender una necesidad.',
+    },
+    {
+      termino: 'Campaña digital',
+      significado: 'conjunto de acciones en medios digitales dirigidas a un público y orientadas al cumplimiento de objetivos de mercadeo (Santander Universidades, 2021).',
+    },
+    {
+      termino: 'Canal digital',
+      significado: 'medio tecnológico que facilita la comunicación, la interacción o el intercambio de información entre una organización y sus públicos.',
+    },
+    {
+      termino: 'Caracterización de audiencias',
+      significado: 'descripción de las necesidades, los rasgos y los comportamientos de un grupo para relacionarlo con la oferta y los objetivos del negocio.',
+    },
+    {
+      termino: 'Contenido audiovisual',
+      significado: 'material que combina elementos visuales y auditivos para comunicar un mensaje (Mansilla, 2024).',
+    },
+    {
+      termino: 'Entorno digital',
+      significado: 'espacio de interacción entre personas, organizaciones, dispositivos y sistemas mediante recursos digitales.',
+    },
+    {
+      termino: 'Funcionalidad',
+      significado: 'acción específica que un canal o recurso tecnológico permite realizar.',
+    },
+    {
+      termino: 'Mezcla de mercadeo',
+      significado: 'conjunto de decisiones relacionadas con producto, precio, distribución y promoción para ofrecer valor al mercado.',
+    },
+    {
+      termino: 'Planeación',
+      significado: 'definición de objetivos, prioridades, actividades, responsables y recursos para orientar las decisiones y la ejecución del negocio.',
+    },
+    {
+      termino: 'Priorización de canales',
+      significado: 'ordenamiento de las alternativas según su pertinencia frente a objetivos, audiencias y recursos disponibles.',
+    },
+    {
+      termino: 'Propuesta de valor',
+      significado: 'explicación del beneficio que una oferta proporciona a un público al atender una necesidad.',
+    },
+    {
+      termino: 'Segmentación',
+      significado: 'organización de personas en grupos con características, necesidades o comportamientos compartidos.',
+    },
+    {
+      termino: 'Tecnologías de la información y la comunicación',
+      significado: 'recursos tecnológicos que permiten producir, procesar, almacenar, transmitir y compartir información.',
+    },
+    {
+      termino: 'Viabilidad',
+      significado: 'posibilidad de implementar y mantener una alternativa según las capacidades y los recursos del negocio.',
+    }
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'American Marketing Association. (s. f.). Marketing vs. advertising.',
+      link: 'https://www.ama.org/marketing-vs-advertising/',
     },
+    {
+      referencia: 'Centers for Disease Control and Prevention. (2024, 28 de agosto). SMART framework.',
+      link: 'https://www.cdc.gov/youth-advisory-councils/action-plans/smart-framework.html',
+    },
+    {
+      referencia: 'Gomez Albrecht, M., Green, M., & Hoffman, L. (2023). Principles of marketing. OpenStax.',
+      link: 'https://openstax.org/details/books/principles-marketing',
+    },
+    {
+      referencia: 'Mansilla, J. (2024, 23 de julio). Tipos e importancia del contenido audiovisual.',
+      link: 'https://jamilmansilla.com/contenido-audiovisual/',
+    },
+    {
+      referencia: 'MSMK. (2024, 11 de septiembre). ¿Qué es el alcance?',
+      link: 'https://msmk.university/que-es-el-alcance/',
+    },
+    {
+      referencia: 'OECD. (2019). Going digital: Shaping policies, improving lives. OECD Publishing.',
+      link: 'https://doi.org/10.1787/9789264312012-en',
+    },
+    {
+      referencia: 'Santander Universidades. (2021, 26 de mayo). Campañas digitales: qué son y cómo lograr que funcionen. Santander Open Academy.',
+      link: 'https://www.santanderopenacademy.com/es/blog/campanas-digitales.html',
+    }
   ],
   creditos: [
     {
@@ -358,13 +442,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
         },
       ],
     },
@@ -372,9 +452,22 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Eliana Audrey Manchola Pérez',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan José Calderón Gutierrez',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -382,37 +475,44 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
-          cargo: 'Diseñador de contenidos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: '',
+          nombre: 'Cristian Fernando Martínez Sánchez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-      ],
-    },
-    {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [
-        {
-          nombre: '',
-          cargo: 'Validador de recursos educativos digitales',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
